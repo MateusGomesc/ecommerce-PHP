@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    margin: 32px 0;
+}
+
+table{
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+    padding: 20px;
+    width: 400px;
+}
+
+table tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+table th{
+    border-bottom: 1px solid black;
+    margin-bottom: 8px;
+}
